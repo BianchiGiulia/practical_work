@@ -1,0 +1,11 @@
+Thu 18 Apr 2024 16:12:08 INFO  [Training]: train_batch_size = [32] train_neg_sample_args: [{'distribution': 'uniform', 'sample_num': 1, 'alpha': 1.0, 'dynamic': False, 'candidate_num': 0}]
+Thu 18 Apr 2024 16:12:08 INFO  [Evaluation]: eval_batch_size = [32] eval_args: [{'split': {'RS': [0.8, 0.1, 0.1]}, 'order': 'RO', 'group_by': 'user', 'mode': {'valid': 'full', 'test': 'full'}}]
+Thu 18 Apr 2024 16:12:10 WARNING  Max value of item's history interaction records has reached 43.377847786052655% of the total.
+Thu 18 Apr 2024 16:12:20 WARNING  Max value of user's history interaction records has reached 60.47961986784468% of the total.
+Thu 18 Apr 2024 23:37:30 INFO  epoch 0 training [time: 26697.28s, train loss: 431071.9969]
+Thu 18 Apr 2024 23:40:05 INFO  epoch 0 evaluating [time: 154.67s, valid_score: 0.049700]
+Thu 18 Apr 2024 23:40:05 INFO  valid result: 
+recall@10 : 0.0176    mrr@10 : 0.0497    ndcg@10 : 0.0232    hit@10 : 0.1838    precision@10 : 0.0224
+Thu 18 Apr 2024 23:40:06 INFO  Saving current: ./saved/DMF-Apr-18-2024_16-12-33.pth
+Thu 18 Apr 2024 23:40:06 INFO  Loading model structure and parameters from ./saved/DMF-Apr-18-2024_16-12-33.pth
+Thu 18 Apr 2024 23:42:39 INFO  OrderedDict([('recall@10', 0.0181), ('mrr@10', 0.0511), ('ndcg@10', 0.0238), ('hit@10', 0.1893), ('precision@10', 0.023)])
