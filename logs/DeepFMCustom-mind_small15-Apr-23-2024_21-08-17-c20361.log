@@ -1,0 +1,61 @@
+Tue 23 Apr 2024 21:09:48 INFO  mind_small15
+The number of users: 86339
+Average actions of users: 182.97368482012556
+The number of items: 26938
+Average actions of items: 586.4640457363478
+The number of inters: 15797582
+The sparsity of the dataset: 99.320767816568%
+Remain Fields: ['user_id', 'item_id', 'label', 'uid', 'user_emb']
+Tue 23 Apr 2024 21:10:08 INFO  [Training]: train_batch_size = [32] train_neg_sample_args: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Tue 23 Apr 2024 21:10:08 INFO  [Evaluation]: eval_batch_size = [32] eval_args: [{'split': {'RS': [0.8, 0.1, 0.1]}, 'order': 'RO', 'group_by': 'user', 'mode': {'valid': 'labeled', 'test': 'labeled'}}]
+Tue 23 Apr 2024 22:07:25 INFO  epoch 0 training [time: 3437.07s, train loss: 46830.3349]
+Tue 23 Apr 2024 22:08:00 INFO  epoch 0 evaluating [time: 34.77s, valid_score: 0.985800]
+Tue 23 Apr 2024 22:08:00 INFO  valid result: 
+auc : 0.9858    mae : 0.0467    rmse : 0.1662    logloss : 0.1175
+Tue 23 Apr 2024 22:08:03 INFO  Saving current: ./saved/DeepFMCustom-Apr-23-2024_21-10-08.pth
+Tue 23 Apr 2024 23:07:23 INFO  epoch 1 training [time: 3559.14s, train loss: 49345.6795]
+Tue 23 Apr 2024 23:07:57 INFO  epoch 1 evaluating [time: 34.38s, valid_score: 0.985800]
+Tue 23 Apr 2024 23:07:57 INFO  valid result: 
+auc : 0.9858    mae : 0.0426    rmse : 0.1679    logloss : 0.1329
+Tue 23 Apr 2024 23:08:00 INFO  Saving current: ./saved/DeepFMCustom-Apr-23-2024_21-10-08.pth
+Wed 24 Apr 2024 00:07:19 INFO  epoch 2 training [time: 3559.11s, train loss: 53833.4688]
+Wed 24 Apr 2024 00:07:53 INFO  epoch 2 evaluating [time: 34.07s, valid_score: 0.985600]
+Wed 24 Apr 2024 00:07:53 INFO  valid result: 
+auc : 0.9856    mae : 0.0425    rmse : 0.1713    logloss : 0.15
+Wed 24 Apr 2024 01:06:18 INFO  epoch 3 training [time: 3504.88s, train loss: 57969.7863]
+Wed 24 Apr 2024 01:06:52 INFO  epoch 3 evaluating [time: 34.48s, valid_score: 0.985400]
+Wed 24 Apr 2024 01:06:52 INFO  valid result: 
+auc : 0.9854    mae : 0.0384    rmse : 0.1697    logloss : 0.1719
+Wed 24 Apr 2024 02:04:54 INFO  epoch 4 training [time: 3481.94s, train loss: 61615.2892]
+Wed 24 Apr 2024 02:05:28 INFO  epoch 4 evaluating [time: 33.95s, valid_score: 0.985500]
+Wed 24 Apr 2024 02:05:28 INFO  valid result: 
+auc : 0.9855    mae : 0.04    rmse : 0.174    logloss : 0.1851
+Wed 24 Apr 2024 03:03:47 INFO  epoch 5 training [time: 3498.44s, train loss: 64249.5517]
+Wed 24 Apr 2024 03:04:20 INFO  epoch 5 evaluating [time: 33.75s, valid_score: 0.985300]
+Wed 24 Apr 2024 03:04:20 INFO  valid result: 
+auc : 0.9853    mae : 0.0423    rmse : 0.1802    logloss : 0.2045
+Wed 24 Apr 2024 04:02:17 INFO  epoch 6 training [time: 3476.62s, train loss: 66218.4407]
+Wed 24 Apr 2024 04:02:51 INFO  epoch 6 evaluating [time: 34.11s, valid_score: 0.985200]
+Wed 24 Apr 2024 04:02:51 INFO  valid result: 
+auc : 0.9852    mae : 0.0413    rmse : 0.1807    logloss : 0.2198
+Wed 24 Apr 2024 05:01:00 INFO  epoch 7 training [time: 3488.78s, train loss: 67905.6436]
+Wed 24 Apr 2024 05:01:34 INFO  epoch 7 evaluating [time: 33.95s, valid_score: 0.985000]
+Wed 24 Apr 2024 05:01:34 INFO  valid result: 
+auc : 0.985    mae : 0.0385    rmse : 0.1775    logloss : 0.2388
+Wed 24 Apr 2024 05:59:45 INFO  epoch 8 training [time: 3490.65s, train loss: 69374.1073]
+Wed 24 Apr 2024 06:00:18 INFO  epoch 8 evaluating [time: 33.90s, valid_score: 0.984700]
+Wed 24 Apr 2024 06:00:18 INFO  valid result: 
+auc : 0.9847    mae : 0.0474    rmse : 0.1947    logloss : 0.2598
+Wed 24 Apr 2024 06:58:44 INFO  epoch 9 training [time: 3505.68s, train loss: 70714.4105]
+Wed 24 Apr 2024 06:59:18 INFO  epoch 9 evaluating [time: 33.88s, valid_score: 0.984800]
+Wed 24 Apr 2024 06:59:18 INFO  valid result: 
+auc : 0.9848    mae : 0.0426    rmse : 0.1879    logloss : 0.2726
+Wed 24 Apr 2024 06:59:20 INFO  Loading model structure and parameters from ./saved/DeepFMCustom-Apr-23-2024_21-10-08.pth
+
+
+24 Apr 06:59    INFO  Loading model structure and parameters from ./saved/DeepFMCustom-Apr-23-2024_21-10-08.pth
+Loading model structure and parameters from ./saved/DeepFMCustom-Apr-23-2024_21-10-08.pth
+OrderedDict([('auc', 0.9858),
+             ('mae', 0.0429),
+             ('rmse', 0.1688),
+             ('logloss', 0.1335)])
