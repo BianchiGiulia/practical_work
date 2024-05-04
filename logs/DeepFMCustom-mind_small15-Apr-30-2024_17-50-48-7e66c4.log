@@ -1,0 +1,19 @@
+Tue 30 Apr 2024 17:52:33 INFO  mind_small15
+The number of users: 86339
+Average actions of users: 182.97368482012556
+The number of items: 26938
+Average actions of items: 586.4640457363478
+The number of inters: 15797582
+The sparsity of the dataset: 99.320767816568%
+Remain Fields: ['user_id', 'item_id', 'label', 'uid', 'user_emb', 'iid', 'item_emb']
+Tue 30 Apr 2024 17:53:06 INFO  [Training]: train_batch_size = [32] train_neg_sample_args: [{'distribution': 'uniform', 'sample_num': 1, 'dynamic': False, 'alpha': 1.0, 'candidate_num': 0}]
+Tue 30 Apr 2024 17:53:06 INFO  [Evaluation]: eval_batch_size = [32] eval_args: [{'split': {'RS': [0.8, 0.1, 0.1]}, 'order': 'RO', 'group_by': 'user', 'mode': {'valid': 'labeled', 'test': 'labeled'}}]
+Tue 30 Apr 2024 20:12:11 INFO  epoch 0 training [time: 8335.17s, train loss: 282374.3796]
+Tue 30 Apr 2024 20:12:48 INFO  epoch 0 evaluating [time: 37.40s, valid_score: 0.342700]
+Tue 30 Apr 2024 20:12:48 INFO  valid result: 
+auc : 0.3427    mae : 0.5572    rmse : 0.7153    logloss : 3.1073
+Tue 30 Apr 2024 20:12:53 INFO  Saving current: ./saved/DeepFMCustom-Apr-30-2024_17-53-15.pth
+Tue 30 Apr 2024 22:21:00 INFO  epoch 1 training [time: 7687.66s, train loss: 292717.1044]
+Tue 30 Apr 2024 22:21:36 INFO  epoch 1 evaluating [time: 36.03s, valid_score: 0.237500]
+Tue 30 Apr 2024 22:21:36 INFO  valid result: 
+auc : 0.2375    mae : 0.5547    rmse : 0.726    logloss : 6.0022
